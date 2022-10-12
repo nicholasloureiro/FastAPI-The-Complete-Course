@@ -1,0 +1,39 @@
+{% include 'layout.html'%}
+
+<div class="container">
+    <div class="card">
+        <div class="card-header">
+            <strong>CARDAPIO DA SEMANA</strong>
+        </div>
+        <div class="card-body">
+            <form method ="POST">
+                <div class="form-group">
+                    <label>Segunda</label>
+                    <input type="text" class="from-control" name="menu" required>
+                </div>
+                <div class="form-group">
+                    <label>Terça</label>
+                    <input type="text" class="from-control" name="menu" required>
+                </div>
+               
+                <div class="form-group">
+                    <label>Quarta</label>
+                    <input type="text" class="from-control" name="menu">
+                </div>
+                <div class="form-group">
+                    <label>Quinta</label>
+                    <input type="text" class="from-control" name="menu" required>
+                </div>
+
+                <div class="form-group">
+                    <label>Sexta</label>
+                    <input type="text" class="from-control" name="menu" required>
+                </div>
+
+                                
+                <button type="submit" class="btn btn-primary">Finalizar</button>
+            </form>
+        </div>
+    </div>
+</div>
+
